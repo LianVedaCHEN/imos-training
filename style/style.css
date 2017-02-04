@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100');
+* {
+    margin: 0;
+    padding: 0;
+    /**
+     * Tahoma is the default font for content
+     */
+    font-family: 'Tahoma', 'Montserrat', sans-serif, 'Noto Sans', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'Tahoma';
+    font-weight: inherit
+}
+
+h1 {
+    /**
+     * Montserrat is the default font for title
+     */
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+/**
+ * Below styles could be deleted
+ */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}

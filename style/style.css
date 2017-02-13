@@ -122,21 +122,32 @@ h2 {
 }
 
 #user{
+  order:0;
   width: 180px;
-  margin: 12px 20px;
   float: right;
-  height: 26px;
-  
+  position: relative;
+  min-width: 180px;
+  max-width: 180px;
+  height:50px;
+  left:10px;
+
+
 }
 
-#user > img{
+#user img{
   width:30px;
-  height: 30px;
+  top:10px;
 
-  float: right;
+  margin-top: 0px;
+
+  /*float: right;
+  */
+
+  position:relative;
+  margin-left:20px
 }
 
-#user .login .logint1{
+#user .logint1{
   font-size: 12px;
   color: #FFF;
 
@@ -182,4 +193,96 @@ h2 {
   font-size: 11px;
   font-family: 'Montserrat', sans-serif !important;
   font-weight: bold;
+}
+
+.content{
+  display:flex;
+  flex-direction: column;
+  width:87%;
+  padding-top:50px;
+  margin-left: 130px;
+}
+
+#title{
+  font-size: 20px;
+  font-weight:bolder;
+  margin-top: 20px;
+
+  font-family: 'Go A', 'Go B', 'Montserrat', sans-serif;
+}
+
+.page-subtitle{
+  background-color:rgba(0,0,0,1.00);
+  color:rgba(248,247,247,1.00);
+  font-size:20px;
+  line-height: 24px;
+  height:40px;
+  padding-left: 10px;
+padding-right: 20px;
+
+  margin-top:10px;
+}
+
+.page-subtitle span{
+  margin-left:14px;
+  position:relative;
+  top:7px;
+}
+
+.creditContent{
+
+/*
+  float:right;
+	width:80%;
+	padding: 20px 0px;
+  */
+
+  width:80%;
+  margin-top: 40px;
+      margin-bottom: 40px;
+      margin-left: 40%;
+	border-bottom:2px solid #ddd;
+	line-height:30px;
+	font-size:18px;
+	color:rgba(122,123,121,1.00);
+}
+
+.creditContent span{
+  margin:20px;
+}
+
+.creditPicture{
+  float: right;
+  width:80%;
+  padding: 20px 0px;
+  margin-left: 55%;
+}
+
+.creditPicture img{
+  float:right;
+  margin-left: 50%;
+  width:100px;
+}
+
+.creditPicture img .ust{
+
+}
+
+.member span{
+  font-weight:bolder;
+	font-size:18px;
+	color: rgba(86,83,80,1.00);
+}
+
+.left{
+  float:left;
+  margin-top:25px;
+  margin-left: 40%;
+}
+
+
+.right{
+  float:left;
+  font-size:18px;
+  margin-left: 70%;
 }

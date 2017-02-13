@@ -240,7 +240,7 @@ padding-right: 20px;
   width:80%;
   margin-top: 40px;
       margin-bottom: 40px;
-      margin-left: 40%;
+      margin-left: 60%;
 	border-bottom:2px solid #ddd;
 	line-height:30px;
 	font-size:18px;
@@ -252,10 +252,11 @@ padding-right: 20px;
 }
 
 .creditPicture{
-  float: right;
+  margin-left: 60%;
+  /*float: right;
   width:80%;
   padding: 20px 0px;
-  margin-left: 55%;
+  margin-left: 55%;*/
 }
 
 .creditPicture img{
@@ -275,14 +276,15 @@ padding-right: 20px;
 }
 
 .teamContent .left{
-  float:left;
+  /*float:left;*/
+  text-align: left;
   margin:10px;
   /*margin-left: 40%;*/
 }
 
 
 .teamContent .right{
-  float:left;
+  /*float:left;*/
   text-align: right;
   margin: 10px;
   font-size:18px;

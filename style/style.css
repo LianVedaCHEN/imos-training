@@ -198,7 +198,7 @@ h2 {
 .content{
   display:flex;
   flex-direction: column;
-  width:87%;
+  width:80%;
   padding-top:50px;
   margin-left: 130px;
 }
@@ -253,6 +253,9 @@ padding-right: 20px;
 
 .creditPicture{
   margin-left: 60%;
+  height:100px;
+  width:50%;
+  /*float:right;*/
   /*float: right;
   width:80%;
   padding: 20px 0px;
@@ -272,7 +275,7 @@ padding-right: 20px;
 }
 
 .teamContent{
-  margin-left: 55%;
+  margin-left: 40%;
 }
 
 .teamContent .left{
